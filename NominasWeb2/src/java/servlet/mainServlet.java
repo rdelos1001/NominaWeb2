@@ -24,7 +24,7 @@ public class mainServlet extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
-
+    	
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
@@ -78,6 +78,7 @@ public class mainServlet extends HttpServlet {
 			request.setAttribute("listEmpleados", listEmpleados);
 			path="MostrarTodoEmpleado.jsp";
 			break;
+			
 		default:
 			path="Error404.jsp";
 			break;

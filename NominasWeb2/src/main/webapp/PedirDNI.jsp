@@ -10,7 +10,7 @@
 <link rel="icon" type="image/ico" href="img/favicon.ico">
 	</head>
 	<body>
-		<form action="mainServlet" method="post">
+		<form action="mainServlet" method="get">
 			<label>Introduzca el DNI del empleado</label><br>
 			<input type="hidden" name="action" value="4">
 			<input type="text" name="dni" placeholder="ej: 12345678A"><br>
